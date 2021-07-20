@@ -1,0 +1,8 @@
+.ct-bar{
+    stroke-width: 10;
+      stroke-linecap: round;
+  }
+.ct-label {
+  color: black;
+    margin-top: 8px;
+}

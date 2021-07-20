@@ -1,0 +1,254 @@
+.ct-chart-white-colors .ct-grid {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-white-colors .ct-series-a .ct-point,
+.ct-chart-white-colors .ct-series-a .ct-line,
+.ct-chart-white-colors .ct-series-a .ct-bar,
+.ct-chart-white-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(255, 255, 255, 0.8);
+}
+.ct-chart-white-colors .ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-white-colors {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ct-chart-TC-colors .ct-grid {
+  stroke: rgba(252, 157, 95, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-TC-colors .ct-series-a .ct-point,
+.ct-chart-TC-colors .ct-series-a .ct-line,
+.ct-chart-TC-colors .ct-series-a .ct-bar,
+.ct-chart-TC-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(253, 238, 1, 1);
+}
+.ct-chart-TC-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-TC-colors {
+  color: rgba(252, 157, 95, 1);
+}
+
+.ct-chart-TA-colors .ct-grid {
+  stroke: rgba(252, 157, 95, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-TA-colors .ct-series-a .ct-point,
+.ct-chart-TA-colors .ct-series-a .ct-line,
+.ct-chart-TA-colors .ct-series-a .ct-bar,
+.ct-chart-TA-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(86, 120, 255, 1);
+}
+.ct-chart-TA-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-TA-colors {
+  color: rgba(86, 120, 255, 1);
+}
+
+.ct-chart-VU-colors .ct-grid {
+  stroke: rgba(185, 95, 238, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-VU-colors .ct-series-a .ct-point,
+.ct-chart-VU-colors .ct-series-a .ct-line,
+.ct-chart-VU-colors .ct-series-a .ct-bar,
+.ct-chart-VU-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(72, 120, 132, 1);
+}
+.ct-chart-VU-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-VU-colors {
+  color: rgba(185, 95, 238, 0.7);
+}
+
+.ct-chart-A-colors .ct-grid {
+  stroke: rgba(0, 64, 140, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-A-colors .ct-series-a .ct-point,
+.ct-chart-A-colors .ct-series-a .ct-line,
+.ct-chart-A-colors .ct-series-a .ct-bar,
+.ct-chart-A-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(0, 64, 140, 0.8);
+}
+
+.ct-chart-A-colors .ct-series-a .ct-point,
+.ct-chart-A-colors .ct-series-a .ct-line,
+.ct-chart-A-colors .ct-series-a .ct-bar,
+.ct-chart-A-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(33, 44, 90, 1);
+}
+
+.ct-chart-A-colors .ct-series-b .ct-point,
+.ct-chart-A-colors .ct-series-b .ct-line,
+.ct-chart-A-colors .ct-series-b .ct-bar,
+.ct-chart-A-colors .ct-series-b .ct-slice-donut {
+  stroke: rgba(255, 248, 53, 1);
+}
+
+.ct-chart-A-colors .ct-series-c .ct-point,
+.ct-chart-A-colors .ct-series-c .ct-line,
+.ct-chart-A-colors .ct-series-c .ct-bar,
+.ct-chart-A-colors .ct-series-c .ct-slice-donut {
+  stroke: rgba(86, 120, 255, 1);
+}
+
+.ct-chart-A-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-A-colors {
+  color: rgba(33, 44, 90, 0.7);
+}
+
+.ct-chart-FH-colors .ct-grid {
+  stroke: rgba(124, 234, 156, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-FH-colors .ct-series-a .ct-point,
+.ct-chart-FH-colors .ct-series-a .ct-line,
+.ct-chart-FH-colors .ct-series-a .ct-bar,
+.ct-chart-FH-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(124, 234, 156, 0.8);
+}
+.ct-chart-FH-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-FH-colors {
+  color: rgba(124, 234, 156, 0.7);
+}
+
+.ct-chart-PM-colors .ct-grid {
+  stroke: rgba(95, 206, 255, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+.ct-chart-PM-colors .ct-series-a .ct-point,
+.ct-chart-PM-colors .ct-series-a .ct-line,
+.ct-chart-PM-colors .ct-series-a .ct-bar,
+.ct-chart-PM-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(104, 135, 255, 1);
+}
+
+.ct-chart-PM-colors .ct-series-b .ct-point,
+.ct-chart-PM-colors .ct-series-b .ct-line,
+.ct-chart-PM-colors .ct-series-b .ct-bar,
+.ct-chart-PM-colors .ct-series-b .ct-slice-donut {
+  stroke: rgba(82, 109, 213, 1);
+}
+
+.ct-chart-PM-colors .ct-series-c .ct-point,
+.ct-chart-PM-colors .ct-series-c .ct-line,
+.ct-chart-PM-colors .ct-series-c .ct-bar,
+.ct-chart-PM-colors .ct-series-c .ct-slice-donut {
+  stroke: rgba(58, 77, 152, 1);
+}
+
+.ct-chart-PM-colors .ct-series-d .ct-point,
+.ct-chart-PM-colors .ct-series-d .ct-line,
+.ct-chart-PM-colors .ct-series-d .ct-bar,
+.ct-chart-PM-colors .ct-series-d .ct-slice-donut {
+  stroke: rgba(41, 55, 109, 1);
+}
+
+.ct-chart-PM-colors .ct-series-e .ct-point,
+.ct-chart-PM-colors .ct-series-e .ct-line,
+.ct-chart-PM-colors .ct-series-e .ct-bar,
+.ct-chart-PM-colors .ct-series-e .ct-slice-donut {
+  stroke: rgba(33, 44, 87, 1);
+}
+
+.ct-chart-PM-colors {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+.ct-chart-PM-colors {
+  color: rgba(95, 206, 255, 1);
+}
+
+.ct-chart-line .ct-label,
+.ct-chart-bar .ct-label {
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ct-label {
+  fill: rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}

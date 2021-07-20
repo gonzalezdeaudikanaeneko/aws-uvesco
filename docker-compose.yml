@@ -1,0 +1,29 @@
+version: '3'
+
+services: 
+  flask:
+    build:
+        context: ./api
+        dockerfile: Dockerfile.flask
+    container_name: Flask_docker
+    restart: unless-stopped #se reinicia si falla
+    ports: 
+      - "5000:5000"
+    environment: 
+      - FLASK_RUN_HOST=0.0.0.0
+  app:
+    build: .
+    #    context: .
+    #    dockerfile: Dockerfile
+    container_name: Node_docker
+    stdin_open: true
+    restart: unless-stopped #se reinicia si falla
+    ports: 
+      - '80:3000'
+    depends_on:
+      - flask
+  
+  
+    
+  
+    

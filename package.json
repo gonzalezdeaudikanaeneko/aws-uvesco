@@ -1,0 +1,38 @@
+{
+  "name": "lasai",
+  "version": "1.0.0",
+  "description": "Lasai Bermeo Solution",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "start-api": "cd api && flask run -p 5000",
+    "start-api-windows": "cd api && flask run -p 5000 --no-debugger ",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "mocha ./test/*.js --reporter spec"
+  },
+  "author": "Neure_",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^1.0.6",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "leaflet": "^1.7.1",
+    "mkcert": "^1.4.0",
+    "mocha": "^8.2.1",
+    "mongoose": "^5.3.11",
+    "mqtt": "^4.2.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react-leaflet-heatmap-layer": "^2.0.0",
+    "react-to-pdf": "0.0.13",
+    "request": "^2.88.2",
+    "validator": "^10.11.0"
+  }
+}
